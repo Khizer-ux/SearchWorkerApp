@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00897B"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Search Worker App"
+        android:gravity="center"
+        android:textSize="40dp"
+        android:textStyle="bold"
+        android:textColor="#ffffff"
+        />
+
+    <Button
+        android:id="@+id/btnbuilder"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="100dp"
+        android:background="#85C83D"
+        android:text="CV Builder"
+        android:textColor="#ffffff"
+        android:textSize="35sp" />
+
+    <Button
+        android:id="@+id/btneditcv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="#85C83D"
+        android:text="Edit CV"
+        android:textColor="#ffffff"
+        android:textSize="35sp"
+        />
+
+    <Button
+        android:id="@+id/btnsearchworker"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="#85C83D"
+        android:text="Search Worker"
+        android:textColor="#ffffff"
+        android:textSize="35sp"
+        />
+
+</LinearLayout>

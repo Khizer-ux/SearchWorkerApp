@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "255783435420",
+    "firebase_url": "https://searchworkerapp.firebaseio.com",
+    "project_id": "searchworkerapp",
+    "storage_bucket": "searchworkerapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:255783435420:android:7e7625027768e700454159",
+        "android_client_info": {
+          "package_name": "com.example.searchworkerapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "255783435420-mbnsgvrd4av31rcigommpndsv18878rg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBgCCwXymASJv003aKa1gsUVIo5pNrGeTI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "255783435420-mbnsgvrd4av31rcigommpndsv18878rg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

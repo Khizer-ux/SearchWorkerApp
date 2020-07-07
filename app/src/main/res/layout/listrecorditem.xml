@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00897B">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Search Worker App"
+            android:gravity="center"
+            android:textSize="40dp"
+            android:textStyle="bold"
+            android:textColor="#ffffff"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Personal Information"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="#ffffff"
+            />
+
+        <EditText
+            android:id="@+id/etlistname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textColor="#ffffff"
+            android:hint="Name"
+            />
+
+        <EditText
+            android:id="@+id/etlistfname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textColor="#ffffff"
+            android:hint="FatherName"
+            />
+        <EditText
+            android:id="@+id/etlistdob"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textColor="#ffffff"
+            android:hint="Dob"
+            />
+
+        <EditText
+            android:id="@+id/etlistcontact"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textColor="#ffffff"
+            android:hint="Contact"
+            />
+        <EditText
+            android:id="@+id/etlistaddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textColor="#ffffff"
+            android:hint="Address"
+            />
+        <EditText
+            android:id="@+id/etlistemail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textColor="#ffffff"
+            android:hint="Email"
+            />
+
+        <EditText
+            android:id="@+id/etlistpassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textColor="#ffffff"
+            android:hint="Password"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Education"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="#ffffff"
+            />
+
+        <EditText
+            android:id="@+id/etlistedu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textColor="#ffffff"
+            android:hint="Education"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Projects"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="#ffffff"
+            />
+
+        <EditText
+            android:id="@+id/etlistprojects"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textColor="#ffffff"
+            android:hint="Projects"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Research Background"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="#ffffff"
+            />
+
+        <EditText
+            android:id="@+id/etlistresearch"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textColor="#ffffff"
+            android:hint="Research Background"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Key Skills"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="#ffffff"
+            />
+
+        <EditText
+            android:id="@+id/etlistskill"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textColor="#ffffff"
+            android:hint="Skills"
+            />
+
+        <Button
+            android:id="@+id/btnlistedit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#ffffff"
+            android:background="#85C83D"
+            android:text="Edit"/>
+
+    </LinearLayout>
+
+</ScrollView>
